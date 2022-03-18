@@ -148,7 +148,7 @@ resource "time_sleep" "wait" {
 terraform {
   required_providers {
     oci = {
-      source = "oracle/oci"
+      source = "hashicorp/oci"
     }
   }
 }
